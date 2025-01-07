@@ -2,7 +2,7 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>Lendingcoterie</title>
+  <title>Lendingcoterie5.0</title>
   <link rel="stylesheet" href="./style.css">
 
 </head>
@@ -14,267 +14,617 @@
 
 <head>
 
-  <meta charset="UTF-8">
+    <meta charset="UTF-8">
 
-  <title>LendingCoterie</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" href="./style.css">
+    <title>LendingCoterie - Empower Your Future</title>
+
+    <style>
+
+        /* General Reset */
+
+        * {
+
+            margin: 0;
+
+            padding: 0;
+
+            box-sizing: border-box;
+
+        }
+
+        body {
+
+            font-family: 'Arial', sans-serif;
+
+            color: #333;
+
+            line-height: 1.6;
+
+            background-color: #f3f4f6;
+
+        }
+
+        header {
+
+            background-color: #005b8e;
+
+            color: #fff;
+
+            padding: 20px;
+
+            text-align: center;
+
+        }
+
+        header h1 {
+
+            font-size: 2rem;
+
+        }
+
+        nav {
+
+            background-color: #fff;
+
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+        }
+
+        nav ul {
+
+            display: flex;
+
+            justify-content: center;
+
+            list-style: none;
+
+            padding: 10px 0;
+
+        }
+
+        nav ul li {
+
+            margin: 0 15px;
+
+        }
+
+        nav ul li a {
+
+            text-decoration: none;
+
+            color: #005b8e;
+
+            font-weight: bold;
+
+            transition: color 0.3s;
+
+        }
+
+        nav ul li a:hover {
+
+            color: #00395c;
+
+        }
+
+        .hero {
+
+            background: linear-gradient(to right, #005b8e, #007bb8);
+
+            color: white;
+
+            text-align: center;
+
+            padding: 60px 20px;
+
+        }
+
+        .hero h2 {
+
+            font-size: 2.5rem;
+
+            margin-bottom: 20px;
+
+        }
+
+        .hero p {
+
+            margin-bottom: 30px;
+
+            font-size: 1.2rem;
+
+        }
+
+        .hero a {
+
+            text-decoration: none;
+
+            color: #fff;
+
+            background-color: #00395c;
+
+            padding: 10px 20px;
+
+            border-radius: 5px;
+
+            margin: 0 10px;
+
+            transition: background-color 0.3s;
+
+        }
+
+        .hero a:hover {
+
+            background-color: #001f33;
+
+        }
+
+        .about, .contact, .services, .footer {
+
+            max-width: 1200px;
+
+            margin: 40px auto;
+
+            padding: 20px;
+
+            background: white;
+
+            border-radius: 10px;
+
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+        }
+
+        .about h2, .contact h2, .services h2 {
+
+            text-align: center;
+
+            color: #005b8e;
+
+            margin-bottom: 20px;
+
+        }
+
+        .about p, .contact p, .services p {
+
+            font-size: 1rem;
+
+            text-align: center;
+
+            margin-bottom: 20px;
+
+        }
+
+        .services ul {
+
+            list-style: none;
+
+            display: flex;
+
+            flex-wrap: wrap;
+
+            justify-content: center;
+
+            gap: 20px;
+
+        }
+
+        .services ul li {
+
+            background-color: #e8f5fd;
+
+            padding: 20px;
+
+            border-radius: 10px;
+
+            flex: 1 1 calc(33.333% - 40px);
+
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+            text-align: center;
+
+            color: #005b8e;
+
+        }
+
+        .contact {
+
+            text-align: center;
+
+        }
+
+        .contact a {
+
+            text-decoration: none;
+
+            color: #fff;
+
+            background-color: #25d366;
+
+            padding: 10px 20px;
+
+            border-radius: 5px;
+
+            transition: background-color 0.3s;
+
+        }
+
+        .contact a:hover {
+
+            background-color: #1e9f55;
+
+        }
+
+        footer {
+
+            text-align: center;
+
+            background: #005b8e;
+
+            color: white;
+
+            padding: 20px;
+
+            margin-top: 40px;
+
+        }
+
+    </style>
 
 </head>
 
 <body>
 
-  <!-- partial:index.partial.html -->
+    <header>
 
-  <html lang="en">
+        <h1>LendingCoterie</h1>
 
-  <head>
+        <p>Your Partner in Financial Freedom</p>
 
-      <meta charset="UTF-8">
+    </header>
 
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <nav>
 
-      <title>LendingCoterie - Loan Services</title>
+        <ul>
 
-      <link rel="stylesheet" href="styles.css">
+            <li><a href="#about">About Us</a></li>
 
-      <script src="script.js" defer></script>
+            <li><a href="#services">Our Services</a></li>
 
-  </head>
+            <li><a href="#contact">Contact Us</a></li>
 
-  <body>
+            <li><a href="https://mifundlendme.vercel.app/register">Sign Up</a></li>
 
-      <header>
+        </ul>
 
-          <div class="logo">
+    </nav>
 
-              <h1>LendingCoterie</h1>
+    <div class="hero">
 
-          </div>
+        <h2>Empowering Your Financial Future</h2>
 
-      </header>
+        <p>Quick, reliable, and flexible loan solutions designed to meet your needs.</p>
 
-      <nav>
+        <a href="https://mifundlendme.vercel.app/login">Login</a>
 
-          <ul>
+        <a href="https://mifundlendme.vercel.app/register">Apply for a Loan</a>
 
-              <li><a href="#about">About Us</a></li>
+    </div>
 
-              <li><a href="#contact">Contact Us</a></li>
+<div class="image-container">
 
-              <li><a href="https://mifundlendme.vercel.app/register" class="signup-button">Sign Up</a></li>
+      
 
-              <li><a href="https://mifundlendme.vercel.app/login?session=expired" class="login-button">Login</a></li>
+      <img
 
-          </ul>
+src="https://www.mifundservice.com/images/mifund-preview.png" alt="Second Image" class="centered"> 
 
-      </nav>
+      
 
-      <section class="hero">
+    </div>
 
-          <h2>Welcome to LendingCoterie</h2>
+    <section id="about" class="about">
 
-          <p>Your trusted partner for financial solutions. Get fast, easy, and flexible loans with LendingCoterie.</p>
+        <h2>About LendingCoterie</h2>
 
-          <a href="https://mifundlendme.vercel.app/login?session=expired" class="login-button" target="_blank">
+        <p>We are committed to delivering top-notch financial solutions, empowering individuals and businesses to achieve their goals since 2020.</p>
 
-              Login
+    </section>
 
-          </a>
+    <section id="services" class="services">
 
-          <a href="https://mifundlendme.vercel.app/register" class="apply-loan-button" target="_blank">
+        <h2>Our Services</h2>
 
-              Apply for Loan
+        <ul>
 
-          </a>
+            <li><strong>Personal Loans:</strong> Flexible terms tailored to your needs.</li>
 
-          <div class="image-container">
+            <li><strong>Business Loans:</strong> Expand your business with confidence.</li>
 
-              <img src="https://resource.lendingpoint.com/wp-content/uploads/2024/07/personal-loans-lendingpoint.jpg" alt="Hero Image" class="centered">
+            <li><strong>Emergency Loans:</strong> Quick funds for urgent needs.</li>
 
-          </div>
+        </ul>
 
-          <div class="urgent-message">
+    </section>
 
-              <hr>
+    <section id="contact" class="contact">
 
-              <strong>Do you have an urgent need for cash for your business, to settle bills, take care of emergencies or grab an opportunity?</strong>
+        <h2>Contact Us</h2>
 
-              <p>
+        <p>Have questions? We're here to help!</p>
 
-                  Does payday seem so far and bills are piling up? Don’t worry! Our convenient, secure and instant loans have got you covered. We give loans to businesses and individual entrepreneurs at a small interest rate of 5% per month.
+        <a href="https://wa.me/+2347013510414">Chat with Us on WhatsApp</a>
 
-              </p>
+    </section>
 
-              <p><strong>Apply for a loan now and get the funds within 30 minutes!</strong></p>
+<section id="highlight-section" class="professional-section">
 
-              <hr>
+  <div class="container">
 
-          </div>
+    <h2 class="centered highlight-title">Company with the Lowest Loan Interest Rate</h2>
 
-      </section>
+    <p class="body-text">
 
-      <!-- About Us Section -->
+      Choosing the right loan provider can be daunting in a crowded marketplace. At LendingCoterie, we simplify the process by offering the lowest interest rates and unmatched customer-centric solutions.
 
-      <section id="about" class="about">
+    </p>
 
-          <h3>About Us</h3>
+    <div class="image-container">
 
-          <p class="about-message">
+      <img src="https://res.cloudinary.com/creditville-ng/image/upload/v1663051737/medium_Screen_Shot_2022_07_08_at_3_05_49_PM_70d2b3a6c9_f1850fbf29.png" 
 
-              Get loan, invest smart.
+           alt="Second Image" class="centered">
 
-              <br><br>
+    </div>
 
-              Since 2019, we have served thousands of users offering world-class financial technology services.
+  </div>
 
-              <br><br>
+</section>
 
-              We are committed to building financial systems that make life better for everyone.
+<section id="about-section" class="professional-section">
 
-          </p>
+  <div class="container">
 
-      </section>
+    <h3 class="centered highlight-title"><span style="color: red;">LENDINGCOTERIE</span></h3>
 
-      <!-- Contact Us Section -->
+    <p class="body-text">
 
-      <section id="contact" class="contact">
+      LendingCoterie is committed to financial freedom, offering customer-first lending services. From low-interest rates to transparent policies, we redefine modern lending to empower individuals and businesses.
 
-          <h3>Contact Us</h3>
+    </p>
 
-          <p>Contact is via WhatsApp</p>
+    <div class="image-container">
 
-          <div class="whatsapp-container">
+      <img src="https://res.cloudinary.com/creditville-ng/image/upload/v1663147553/about_us_157801a5fb_78fa99cade.png" alt="About Us Image" class="centered">
 
-              <a href="https://wa.me/+2347013510414" class="whatsapp-button" target="_blank">
+    </div>
 
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="whatsapp-icon"> 
+    <h3 class="centered highlight-title">The Power of Financial Freedom</h3>
 
-              </a>
+    <p class="body-text">
 
-              <a href="https://wa.me/+2347013510414" class="whatsapp-link" target="_blank">
+      In today’s fast-paced world, financial stability is key. At LendingCoterie, we provide solutions that enable dreams, fuel businesses, and address life’s unexpected challenges.
 
-                  Chat with us on WhatsApp
+    </p>
 
-              </a>
+  </div>
 
-          </div>
+</section>
 
-      </section>
+<section id="features-section" class="professional-section">
 
-      <!-- Second Image -->
+  <div class="container">
 
-      <div class="image-container">
+    <h2 class="centered">Why Choose LendingCoterie?</h2>
 
-          <img src="https://res.cloudinary.com/creditville-ng/image/upload/v1663051737/medium_Screen_Shot_2022_07_08_at_3_05_49_PM_70d2b3a6c9_f1850fbf29.png" alt="Second Image" class="centered">
+    <ul class="features-list">
+
+      <li><strong>Fast Application Process:</strong> Apply online effortlessly with instant decisions.</li>
+
+      <li><strong>Competitive Interest Rates:</strong> Transparent and fair rates tailored for you.</li>
+
+      <li><strong>Flexible Repayment Terms:</strong> Custom options that fit your financial goals.</li>
+
+      <li><strong>Exceptional Customer Service:</strong> Dedicated support to guide every step.</li>
+
+    </ul>
+
+    <div class="image-container">
+
+      <img src="https://www.mifundservice.com/images/office3.jpg" alt="Image Story" class="centered">
+
+    </div>
+
+  </div>
+
+</section>
+
+<section id="loan-options" class="professional-section">
+
+  <div class="container">
+
+    <h2 class="centered">Our Loan Options</h2>
+
+    <div class="grid">
+
+      <div class="grid-item">
+
+        <h4>Personal Loans</h4>
+
+        <p>Manage personal needs with affordable and flexible terms.</p>
 
       </div>
 
-      <!-- Subheading after Second Image -->
+      <div class="grid-item">
 
-      <h3 class="centered">COMPANY WITH THE LOWEST LOAN INTEREST RATE</h3>
+        <h4>Business Loans</h4>
 
-      <!-- Text Body after Subheading -->
-
-      <p class="body-text">
-
-          The lending space is fast rising and gradually becoming saturated, which might pose difficulty of choice amongst consumers. Nevertheless, there are several ways of filtering the list to decide which one is best.
-
-          <br><br>
-
-          Before choosing a loan company, there are general evaluation indicators to be considered including - Interest rate, loan tenor, turnaround time, customer service, and transparency. Though, the interest rate is the major factor determinant for customers. The interest rate plays a major role in choice of loan product decision making.
-
-          <br><br>
-
-          Some companies offer the reducing balance rate (interest rate on each remittance) while others offer flat rate. An understanding of these two types of interest rate would further inform an individual’s decision. This is because flat rate and reducing balance rate are not relatively comparable, so an understanding of the difference would go a long way.
-
-          <br><br>
-
-          However, on the long list of lending institutions, LendingCoterie stands out as the company with the lowest interest rate. Not only do they offer the lowest interest to new customers, but provisions are also made to ensure existing customers enjoy reviewed rate subsequently.
-
-          <br><br>
-
-          This company’s interest rate has been reviewed twice in one year, which is quite impressive and unusual- they’ve outrightly shown their devotion to solving customers dilemma on lending services.
-
-      </p>
-
-      <!-- Image after Text Body -->
-
-      <div class="image-container">
-
-          <img src="https://res.cloudinary.com/creditville-ng/image/upload/v1663147553/about_us_157801a5fb_78fa99cade.png" alt="About Us Image" class="centered">
+        <p>Empower your business with funding tailored to grow and succeed.</p>
 
       </div>
 
-      <!-- Final Heading -->
+      <div class="grid-item">
 
-      <h3 class="centered"><span style="color:red;">LENDINGCOTERIE</span></h3>
+        <h4>Emergency Loans</h4>
 
-      <!-- Added Text Before Footer -->
+        <p>Quick financial support when unexpected events arise.</p>
 
-      <section id="text-section">
+      </div>
 
-          <h2>The Power of Financial Freedom</h2>
+    </div>
 
-          <p>In today's fast-paced world, financial stability is the cornerstone of a secure and fulfilling life. Having access to funds when needed can be the difference between achieving your dreams and struggling to make ends meet. At LendingCoterie, we believe that everyone deserves the opportunity to thrive financially.</p>
+    <div class="image-container">
 
-          <h3>A New Era of Lending</h3>
+      <img src="https://www.mifundservice.com/images/office4.jpg" alt="Image About Us" class="centered">
 
-          <p>Gone are the days of traditional banking, with its rigid rules, lengthy application processes, and exorbitant interest rates. The modern world demands a more agile, customer-centric approach to lending. That's where LendingCoterie comes in – a revolutionary loan company dedicated to providing fast, flexible, and affordable financial solutions.</p>
+    </div>
 
-          <h3>Our Story</h3>
+  </div>
 
-          <p>LendingCoterie was born out of a passion to challenge the status quo in the lending industry. Our founders, a team of visionary entrepreneurs, recognized the need for a more compassionate and inclusive approach to lending. They assembled a team of experts from various fields – finance, technology, and customer service – to create a loan company that truly puts the customer first.</p>
+</section>
 
-          <h3>Our Mission</h3>
+<section id="future-lending" class="professional-section">
 
-          <p>At LendingCoterie, our mission is simple yet ambitious: to empower individuals and businesses to achieve their financial goals. We believe that access to funds should be a fundamental right, not a privilege reserved for the few. Our goal is to provide loan solutions that are not only affordable but also tailored to the unique needs of each customer.</p>
+  <div class="container">
 
-          <h3>The Benefits of Borrowing with LendingCoterie</h3>
+    <h2 class="centered">The Future of Lending</h2>
 
-          <ul>
+    <p class="body-text">
 
-              <li><strong>Fast and Easy Application Process</strong>: Our online application is quick, simple, and secure. You can apply from the comfort of your own home, at any time, and receive a decision in minutes.</li>
+      We invest in technology, innovation, and customer-focused strategies to create a seamless lending experience. Join the LendingCoterie community to shape your financial future.
 
-              <li><strong>Competitive Interest Rates</strong>: We offer fair and transparent interest rates that won't break the bank. Our rates are competitive with those of traditional lenders, but without the hidden fees and charges.</li>
+    </p>
 
-              <li><strong>Flexible Repayment Terms</strong>: We understand that every customer is unique, with different financial circumstances and goals. That's why we offer flexible repayment terms that can be tailored to your individual needs.</li>
+  </div>
 
-              <li><strong>Exceptional Customer Service</strong>: At LendingCoterie, we pride ourselves on our exceptional customer service. Our dedicated team is always available to answer your questions, provide guidance, and support you every step of the way.</li>
+</section>
 
-          </ul>
+<section style="padding: 20px; font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
 
-          <h3>Our Loan Options</h3>
+  <!-- Second Image -->
 
-          <p>We offer a range of loan options to suit different needs and circumstances. Whether you're looking to consolidate debt, cover unexpected expenses, or fund a business venture, we have a loan solution that's right for you.</p>
+  <div class="image-container" style="text-align: center; margin-bottom: 20px;">
 
-          <h4>Personal Loans</h4>
+    <img src="https://stormfieldcapital.com/wp-content/uploads/2024/07/cropped2-1.jpg" 
 
-          <p>Our personal loans are designed to help you achieve your personal financial goals. Whether you're looking to consolidate debt, cover unexpected expenses, or fund a major purchase, we offer competitive interest rates and flexible repayment terms.</p>
+         alt="Second Image" 
 
-          <h4>Business Loans</h4>
+         style="max-width: 80%; height: auto; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
 
-          <p>Our business loans are designed to help entrepreneurs and small business owners achieve their goals. Whether you're looking to expand your operations, invest in new equipment, or manage cash flow, we offer competitive interest rates and flexible repayment terms.</p>
+  </div>
 
-          <h4>Emergency Loans</h4>
+  <!-- Subheading -->
 
-          <p>Life is full of unexpected twists and turns, and sometimes you need access to funds quickly. Our emergency loans are designed to provide fast access to cash when you need it most.</p>
+  <h3 style="text-align: center; font-size: 24px; color: #005b8e; margin-bottom: 20px;">
 
-          <h3>The Future of Lending</h3>
+    COMPANY WITH THE LOWEST LOAN INTEREST RATE
 
-          <p>At LendingCoterie, we're committed to revolutionizing the lending industry. We believe that technology, innovation, and customer-centricity are the keys to creating a better lending experience. That's why we're constantly investing in new technologies, improving our processes, and expanding our product offerings.</p>
+  </h3>
 
-          <h3>Join the LendingCoterie Community</h3>
+  <!-- Text Body -->
 
-          <p>At LendingCoterie, we're more than just a loan company – we're a community of like-minded individuals who believe in the power of financial freedom. When you borrow with us, you become part of a community that's dedicated to helping you achieve your financial goals.</p>
+  <p style="margin: 0 10%; text-align: justify;">
 
-          <h3>Conclusion</h3>
+    The lending sector is rapidly growing and becoming increasingly crowded, which could make it challenging for consumers to make a choice. However, there are multiple methods available to narrow down the options and determine the most suitable one.
 
-          <p>In conclusion, LendingCoterie is more than just a loan company – we're a partner in your financial journey. Our mission is to empower individuals and businesses to achieve their financial goals, and we're committed to providing fast, flexible, and affordable loan solutions that meet the unique needs of each customer. Join the LendingCoterie community today and start building a brighter financial future!</p>
+    <br><br>
 
-      </section>
+    When selecting a loan provider, it's important to assess various factors such as the interest rate, length of the loan, processing speed, quality of customer support, and the level of transparency offered. It's worth noting that the interest rate is often the most significant consideration for many customers when deciding on a loan product.
 
-      <!-- Image After Text Section -->
+    <br><br>
+
+    Some companies offer the reducing balance rate (interest rate on each remittance) while others offer flat rate. An understanding of these two types of interest rate would further inform an individual’s decision. This is because flat rate and reducing balance rate are not relatively comparable, so an understanding of the difference would go a long way.
+
+    <br><br>
+
+    However, on the long list of lending institutions, LendingCoterie stands out as the company with the lowest interest rate. Not only do they offer the lowest interest to new customers, but provisions are also made to ensure existing customers enjoy reviewed rates subsequently.
+
+    <br><br>
+
+    This company’s interest rate has been reviewed twice in one year, which is quite impressive and unusual—they’ve outrightly shown their devotion to solving customers' dilemmas on lending services.
+
+  </p>
+
+  <!-- Image After Text Body -->
+
+  <div class="image-container" style="text-align: center; margin-top: 30px; margin-bottom: 30px;">
+
+    <img src="https://res.cloudinary.com/creditville-ng/image/upload/v1663147553/about_us_157801a5fb_78fa99cade.png" 
+
+         alt="About Us Image" 
+
+         style="max-width: 80%; height: auto; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+
+  </div>
+
+  <!-- Final Heading -->
+
+  <h3 style="text-align: center; font-size: 28px; color: #e74c3c; margin-bottom: 30px; font-weight: bold;">
+
+    LENDINGCOTERIE
+
+  </h3>
+
+  <!-- Section with Added Text -->
+
+  <section id="text-section" style="padding: 20px; background-color: #f9f9f9; border-radius: 10px; margin: 20px auto; max-width: 85%; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+
+    <h2 style="color: #005b8e; text-align: center; margin-bottom: 20px;">The Power of Financial Freedom</h2>
+
+    <p style="text-align: justify;">
+
+      In today's fast-paced world, financial stability is the cornerstone of a secure and fulfilling life. Having access to funds when needed can be the difference between achieving your dreams and struggling to make ends meet. At LendingCoterie, we believe that everyone deserves the opportunity to thrive financially.
+
+    </p>
+
+    <h3 style="color: #005b8e; margin-top: 30px;">A New Era of Lending</h3>
+
+    <p style="text-align: justify;">
+
+      The traditional banking model, characterized by strict regulations, protracted application procedures, and high-interest rates, is becoming a thing of the past. Today's dynamic environment calls for a lending approach that prioritizes the needs of the customer. Enter LendingCoterie, an innovative lending firm committed to delivering quick, adaptable, and cost-effective financial options.
+
+    </p>
+
+    
+
+    <div class="image-container" style="text-align: center; margin-top: 20px;">
+
+      <img src="https://www.mifundservice.com/images/office3.jpg" alt="Image Story" style="max-width: 80%; height: auto; border-radius: 10px;">
+
+    </div>
+
+    
+
+    <h3 style="color: #005b8e; margin-top: 30px;">Our Mission</h3>
+
+    <p style="text-align: justify;">
+
+      At LendingCoterie, our mission is simple yet ambitious: to empower individuals and businesses to achieve their financial goals. We believe that access to funds should be a fundamental right, not a privilege reserved for the few.
+
+    </p>
+
+    
+
+    <h3 style="color: #005b8e; margin-top: 30px;">The Benefits of Borrowing with LendingCoterie</h3>
+
+    <ul style="list-style-type: square; padding-left: 20px;">
+
+      <li><strong>Fast and Easy Application Process:</strong> Our online application is quick, simple, and secure.</li>
+
+      <li><strong>Competitive Interest Rates:</strong> We offer fair and transparent interest rates.</li>
+
+      <li><strong>Flexible Repayment Terms:</strong> Our terms are tailored to individual needs.</li>
+
+      <li><strong>Exceptional Customer Service:</strong> Our team is always ready to assist you.</li>
+
+    </ul>
+
+  </section>
+
+</section>
+
+<!-- Image After Text Section -->
 
       <div class="image-container">
 
@@ -301,8 +651,15 @@
 </body>
 
 </html>
-<!-- partial -->
-  <script  src="./script.js"></script>
 
+<!-- partial -->
+
+  
+
+</body>
+
+</html>
+<!-- partial -->
+  
 </body>
 </html>
