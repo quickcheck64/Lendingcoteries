@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const currentYear = new Date().getFullYear();
 
-        footer.innerHTML = `&copy; ${currentYear} Kashpay Finance. All Rights Reserved.`;
+        footer.innerHTML = `&copy; ${currentYear} LendingCoterie. All Rights Reserved.`;
 
     }
 
